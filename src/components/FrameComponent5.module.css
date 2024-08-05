@@ -1,0 +1,128 @@
+.screenshot202406221813341 {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.actionContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-387xl) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.driveYourSuccess {
+  position: relative;
+  font-weight: 600;
+  z-index: 2;
+}
+.titleContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+}
+.joinUsAs {
+  margin: 0;
+  position: relative;
+  font-size: var(--font-size-13xl);
+  font-weight: 600;
+  font-family: inherit;
+  color: var(--color-black);
+  z-index: 2;
+}
+.bottomContentInner,
+.titleContainerParent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.titleContainerParent {
+  width: 427px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.bottomContentInner {
+  width: 661px;
+  flex-direction: row;
+  justify-content: center;
+}
+.areYouA {
+  margin: 0;
+}
+.areYouAContainer {
+  flex: 1;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 2;
+}
+.buttonContainer,
+.description {
+  width: 661px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.description {
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-lgi);
+  text-align: center;
+  color: var(--color-dimgray-100);
+}
+.buttonContainer {
+  justify-content: center;
+  padding: 0 var(--padding-12xs) 0 0;
+}
+.actionContainerParent,
+.bottomContent {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.bottomContent {
+  flex: 0.9715;
+  background-color: var(--lightgreen);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-65xl) var(--padding-xl) var(--padding-88xl)
+    var(--padding-2xl);
+  box-sizing: border-box;
+  gap: var(--gap-base);
+  z-index: 1;
+  margin-left: -1440px;
+}
+.actionContainerParent {
+  position: absolute;
+  top: 2535px;
+  left: 0;
+  width: 100%;
+  flex-direction: row;
+  align-items: flex-start;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--accentcolor);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 925px) {
+  .joinUsAs {
+    font-size: var(--font-size-7xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .joinUsAs {
+    font-size: var(--font-size-lgi);
+  }
+}

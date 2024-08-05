@@ -1,0 +1,57 @@
+.landingChild {
+  position: absolute;
+  top: 804px;
+  left: 201px;
+  border-right: 2px dashed var(--color-mintcream-100);
+  box-sizing: border-box;
+  width: 2px;
+  height: 407px;
+}
+.frameChild,
+.objectsIcon {
+  position: absolute;
+  top: 0;
+  left: 184.8px;
+  width: 174.2px;
+  height: 68.1px;
+  object-fit: contain;
+}
+.frameChild {
+  top: 65.2px;
+  left: 0;
+  width: 1120.5px;
+  height: 193.6px;
+  z-index: 2;
+}
+.landingItem,
+.objectsParent {
+  position: absolute;
+  top: 1654px;
+  left: 160.2px;
+  width: 1120.5px;
+  height: 258.8px;
+}
+.landingItem {
+  top: 2698px;
+  left: 0;
+  background-color: var(--basedark);
+  width: 1440px;
+  height: 579px;
+  overflow: hidden;
+  display: none;
+}
+.landing {
+  width: 100%;
+  height: 3475px;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 925px) {
+  .landing {
+    height: auto;
+    min-height: 3475;
+  }
+}

@@ -1,0 +1,71 @@
+.x {
+  color: var(--accentcolor);
+}
+.myfastx {
+  text-decoration: none;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 61px;
+  white-space: nowrap;
+  color: inherit;
+}
+.download2Icon {
+  height: 25px;
+  width: 25px;
+  position: relative;
+  object-fit: cover;
+}
+.partner {
+  text-decoration: none;
+  position: relative;
+  font-size: var(--font-size-3xs);
+  font-weight: 600;
+  color: inherit;
+  display: inline-block;
+  min-width: 38px;
+}
+.buttonParent,
+.frameParent,
+.myfastxParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.buttonParent,
+.frameParent {
+  align-items: flex-start;
+  gap: var(--gap-5xs);
+}
+.frameParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-lg) var(--padding-138xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--basedark);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 925px) {
+  .frameParent {
+    padding-left: var(--padding-59xl);
+    padding-right: var(--padding-59xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .frameParent {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

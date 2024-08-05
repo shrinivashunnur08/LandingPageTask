@@ -1,0 +1,18 @@
+.text {
+  position: relative;
+  font-weight: 500;
+}
+.chip {
+  background-color: var(--color-whitesmoke-300);
+  border-left: 2px solid var(--accentcolor);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) var(--padding-4xs);
+  white-space: nowrap;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}

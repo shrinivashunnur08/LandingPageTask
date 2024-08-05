@@ -1,0 +1,100 @@
+.addUserMale {
+  position: absolute;
+  top: 8px;
+  left: 7px;
+  width: 22px;
+  height: 22px;
+  object-fit: cover;
+}
+.iconContainer {
+  height: 38px;
+  width: 38px;
+  position: relative;
+  border-radius: var(--br-36xl);
+  background-color: var(--color-whitesmoke-200);
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.nestedStepIcons,
+.nestedStepIconsWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.nestedStepIcons {
+  width: 50px;
+  height: 50px;
+  border-radius: var(--br-13xl);
+  background-color: var(--color-white);
+  border: 1px dashed var(--accentcolor);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: row;
+  padding: var(--padding-7xs) var(--padding-8xs);
+  z-index: 1;
+}
+.nestedStepIconsWrapper {
+  flex-direction: column;
+  padding: var(--padding-xs) 0 0;
+}
+.frameChild {
+  width: 41px;
+  height: 2px;
+  position: relative;
+  border-top: 2px dashed var(--color-mintcream-100);
+  box-sizing: border-box;
+}
+.lineWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-17xl) 0 0;
+}
+.registerOnline {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 93px;
+}
+.fillOutOur {
+  align-self: stretch;
+  position: relative;
+  font-weight: 500;
+  color: var(--color-black);
+}
+.frameParent,
+.registerOnlineParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.registerOnlineParent {
+  flex: 1;
+  border-radius: var(--br-4xs);
+  background-color: var(--color-whitesmoke-100);
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-xs) var(--padding-xl) var(--padding-xs)
+    var(--padding-2xl);
+  box-sizing: border-box;
+  gap: var(--gap-10xs);
+  min-width: 248px;
+  z-index: 1;
+}
+.frameParent {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-11xs-5);
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--accentcolor);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 450px) {
+  .frameParent {
+    flex-wrap: wrap;
+  }
+}
